@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 
+@property (strong, nonatomic) IBOutlet UIButton *btnAnimation;
+@property (strong, nonatomic) NSMutableArray *imageArray;
+//- (IBAction)btnStartAnimation:(id)sender;
+@property (strong, nonatomic) IBOutlet UICollectionView *myColllection;
 
 @end
 

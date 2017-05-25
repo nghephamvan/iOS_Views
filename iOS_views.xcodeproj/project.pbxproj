@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8470DFD71ED6B3D100680A48 /* ItemImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8470DFD61ED6B3D100680A48 /* ItemImageCell.m */; };
 		84C42A461EC2B5570026FAFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C42A451EC2B5570026FAFD /* main.m */; };
 		84C42A491EC2B5570026FAFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C42A481EC2B5570026FAFD /* AppDelegate.m */; };
 		84C42A4C1EC2B5570026FAFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C42A4B1EC2B5570026FAFD /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8470DFD51ED6B3D100680A48 /* ItemImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemImageCell.h; sourceTree = "<group>"; };
+		8470DFD61ED6B3D100680A48 /* ItemImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemImageCell.m; sourceTree = "<group>"; };
 		84C42A411EC2B5570026FAFD /* iOS_views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_views.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C42A451EC2B5570026FAFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84C42A471EC2B5570026FAFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +67,8 @@
 				84C42A481EC2B5570026FAFD /* AppDelegate.m */,
 				84C42A4A1EC2B5570026FAFD /* ViewController.h */,
 				84C42A4B1EC2B5570026FAFD /* ViewController.m */,
+				8470DFD51ED6B3D100680A48 /* ItemImageCell.h */,
+				8470DFD61ED6B3D100680A48 /* ItemImageCell.m */,
 				84C42A4D1EC2B5570026FAFD /* Main.storyboard */,
 				84C42A531EC2B5570026FAFD /* Assets.xcassets */,
 				84C42A551EC2B5570026FAFD /* LaunchScreen.storyboard */,
@@ -156,6 +161,7 @@
 				84C42A491EC2B5570026FAFD /* AppDelegate.m in Sources */,
 				84C42A521EC2B5570026FAFD /* iOS_views.xcdatamodeld in Sources */,
 				84C42A461EC2B5570026FAFD /* main.m in Sources */,
+				8470DFD71ED6B3D100680A48 /* ItemImageCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +310,7 @@
 				84C42A5D1EC2B5570026FAFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
